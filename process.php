@@ -29,7 +29,7 @@
 	  	?>
 		<tr>
 	      <th scope="row"><?php echo $count; ?></th>
-	      <td><?php echo $search["name"]; ?></td>
+	      <td><?php echo highlight_word($search["name"], $name, '#6bcf70a9'); ?></td>
 	      <td><?php echo $search["section"]; ?></td>
 	      <td><?php echo $search["location"]; ?></td>
 	      <td><?php echo $search["status"]; ?></td>
